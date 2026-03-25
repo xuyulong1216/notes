@@ -1,0 +1,94 @@
+\documentclass[12pt]{ctexart}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{fancyhdr}
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{半导体物理}
+\author{胥宇龙}
+\date{\today}
+\begin{document}
+    
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{晶体结构}
+\subsection{原胞}
+\subsection{晶胞}
+\subsubsection{简单立方SC}
+立方体的各个顶点有一个原子
+\subsubsection{体心立方BCC}
+立方体的各个顶点及体心有一个原子
+\subsubsection{面心立方FCC}
+立方体的各个顶点及面心有一个原子，此同时为最密堆积
+\subsubsection{金刚石结构}
+双面心立方晶胞，沿体对角线平移四分之一长度，两种原子组成的两套晶胞按此方法排列则为闪锌矿结构
+
+金刚石结构的解理面为\{111\}面心立方，闪锌矿结构的解理面为\{110\}面，因不同原子间有附加的库伦作用，使\{111\}面间联系加强
+\subsection{晶格结构描述}
+\subsubsection{晶向指数}
+\subsubsection{晶面指数}
+
+\subsection{原子价键}
+\subsection{固体中的缺陷与杂质}
+对于半导体，其晶体中的缺陷将极大影响半导体器件的物理与化学性质
+\subsubsection{点缺陷}
+分为肖特基缺陷语与弗伦克尔缺陷，其中肖特基缺陷中仅有空位产生，弗伦克尔缺陷则同时产生空位与填隙，对于空位，其产生受主(acceptor)作用，填隙则为施主(doner)作用
+
+对于化合物，其同时可存在反结构缺陷，即化合物中的一种原子被另一种原子替代
+
+\subsubsection{线缺陷}
+位错为晶体中常见的线缺陷，位错原子相比周围原子缺少成键，其可同时作为施主与受主存在
+\subsubsection{面缺陷}
+层错为主要的面缺陷情况，即其中晶体中面不连续情况的出现
+\subsubsection{杂质}
+晶体中与本体原子不同的原子为杂质原子，其可为人为加入或无意加入。
+
+其分为间隙式与替位式，间隙式杂质的原子的大小较小，替位式则较大，且处于此状态时，杂质容易激活
+
+向晶体中引入杂质的方法称为掺杂，常见的方式有高温扩散掺杂（常见温度为700-1000摄氏度）
+\subsection{半导体材料的生长}
+\subsubsection{熔体生长（切克劳斯基法）}
+将籽晶放于熔融状态的物质中提拉生长
+\subsubsection{外延生长法}
+在单晶衬底上生长一层薄单晶，可分为同质外延与异质外延
+化学气相沉积：
+气相反应物于晶体表面发生反应，生成一层薄单晶
+液相沉积：
+
+分子束外延
+
+\end{document}
